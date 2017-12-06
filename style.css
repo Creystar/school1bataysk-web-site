@@ -94,7 +94,7 @@ html,body {
 .leftsidebar {
     background:rgba(189, 227, 245, 0.7);
     opacity: 0.9; /*совместимость прозрачности с IE, MS EDGE*/
-    height:880px;
+    height:1040px;
     width: 20%;  
     float:left;
     z-index: 4;
@@ -112,7 +112,7 @@ html,body {
 .rightsidebar {
     background:rgba(189, 227, 245, 0.7);
     opacity: 0.9; /*совместимость прозрачности с IE, MS EDGE*/
-    height:880px;
+    height:1040px;
     float: right;     
     width: 20%; 
     padding-bottom: -40px;
@@ -330,7 +330,7 @@ p2 {
     word-spacing: 3px;
 }
 
- ul1 {
+ ul1, ol {
     text-indent:30px; /*Устанавливает величину отступа первой строки*/
     color:#2e2e2e;  
     font-size:14pt; 
